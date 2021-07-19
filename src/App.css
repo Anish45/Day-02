@@ -1,6 +1,6 @@
 .App {
   /* background-color: #282c34; */
-  background-image: url('./home-bg.jpg');
+  background-image: url("./home-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -12,6 +12,11 @@
   color: white;
 }
 
-.btn{
-  height: 5vh;
+.btn {
+  height: 7vh;
+}
+
+.box {
+  resize: none;
+  height: 300px;
 }

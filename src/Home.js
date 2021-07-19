@@ -5,9 +5,11 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="App">
-      <button className="btn">
-        <Link to="/contact">Contact Page</Link>
-      </button>
+      <Link to="/contact">
+        <button type="button" class="btn btn-warning">
+          Contact Page
+        </button>
+      </Link>
     </div>
   );
 };
